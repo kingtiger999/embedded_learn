@@ -64,6 +64,11 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			// 关于页面
 			LinkPresets.About,
+			{
+				name: "日志",
+				url: "/posts/日志/",
+				icon: "material-symbols:docs",
+			},
 		],
 	});
 
