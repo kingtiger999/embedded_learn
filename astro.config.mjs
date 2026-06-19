@@ -52,9 +52,9 @@ const adapter = process.env.CF_WORKERS
 
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.site_url,
+	site: "https://kingtiger999.github.io/",
 
-	base: "/",
+	base: "/ai_infa_pages/",
 	trailingSlash: "always",
 
 	adapter,
