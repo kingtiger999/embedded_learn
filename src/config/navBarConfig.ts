@@ -15,8 +15,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		// 主页
 		LinkPresets.Home,
 		LinkPresets.Categories,
-		LinkPresets.Archive,
 		LinkPresets.Tags,
+		LinkPresets.Archive,
 	];
 
 	// 文章及其子菜单
