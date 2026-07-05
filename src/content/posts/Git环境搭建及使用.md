@@ -22,13 +22,13 @@ windows 下安装 git，根据自己电脑架构选择，下载 git 软件，并
 
 [https://git-scm.com/install/windows](https://git-scm.com/install/windows)
 
-<img src="./images/git_env_set/1.png" style="zoom: 33%;" />
+![](./images/git_env_set/1.png)
 
 # Git环境配置
 ## 基本配置
 Linux / WSL 下直接在终端中配置，windows下可以进入右键进入到 Git Bash中进行配置，如图所示
 
-<img src="./images/git_env_set/2.png" style="zoom: 50%;" />
+![](./images/git_env_set/2.png)
 
 ```shell
 # 配置用户名邮箱
@@ -66,7 +66,7 @@ sudo apt install openssh-server openssh-client
 ssh
 ```
 
-<img src="./images/git_env_set/3.png" style="zoom:33%;" />
+![](./images/git_env_set/3.png)
 
 3. ssh生成公钥和私钥
 
@@ -76,7 +76,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 生成过程中直接回车即可，不需要设置相关密码
 
-<img src="./images/git_env_set/4.png" style="zoom:33%;" />
+![](./images/git_env_set/4.png)
 
 4. 将公钥配置到 github 网站中
 
@@ -86,21 +86,21 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 cat ~/.ssh/id_rsa.pub
 ```
 
-<img src="./images/git_env_set/5.png" style="zoom:33%;" />
+![](./images/git_env_set/5.png)
 
 设置到 github 中
 
 登录到github后，点击 Settings 进入到设置
 
-<img src="./images/git_env_set/6.png" style="zoom:33%;" />
+![](./images/git_env_set/6.png)
 
 点击 SSH and GPG keys，并点击New SSH key
 
-<img src="./images/git_env_set/7.png" style="zoom:33%;" />
+![](./images/git_env_set/7.png)
 
 将复制的公钥填入到 Key 中，并点击Add SSH key即可
 
-<img src="./images/git_env_set/8.png" style="zoom:33%;" />
+![](./images/git_env_set/8.png)
 
 
 
@@ -108,7 +108,7 @@ cat ~/.ssh/id_rsa.pub
 
 例如
 
-<img src="./images/git_env_set/9.png" style="zoom:33%;" />
+![](./images/git_env_set/9.png)
 
 ```shell
 git clone git@github.com:remzi-arpacidusseau/ostep-homework.git
