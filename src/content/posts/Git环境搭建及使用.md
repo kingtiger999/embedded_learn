@@ -66,7 +66,7 @@ sudo apt install openssh-server openssh-client
 ssh
 ```
 
-![](./images/git_env_set/3.png)
+<img src="./images/git_env_set/3.png" alt="ssh 安装成功" width="300" />
 
 3. ssh生成公钥和私钥
 
